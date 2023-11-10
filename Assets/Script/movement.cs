@@ -7,6 +7,7 @@ public class movement : MonoBehaviour
     public float speed = 1.5f;
     private Vector3 target;
 
+
     void Start()
     {
         target = transform.position;
@@ -16,19 +17,24 @@ public class movement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            target.z = transform.position.z;
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            // Vérifiez si la position cible est au-dessus du personnage
-            if (target.y > transform.position.y)
+            if (!Physics.Raycast(ray, out hit) || hit.collider.gameObject != gameObject)
             {
-                // Si c'est le cas, ajustez la position cible à la même hauteur que le personnage
-                target.y = transform.position.y;
-            }
-            else if (target.y < transform.position.y)
-            {
-                // Si la position cible est en dessous du personnage, annulez le déplacement vers le bas
-                target = transform.position;
+                target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                target.z = transform.position.z;
+
+                if (target.y > transform.position.y)
+                {
+                    target.y = transform.position.y;
+                }
+                else if (target.y < transform.position.y)
+                {
+                    target = transform.position;
+                }
+               
+                
             }
         }
 
