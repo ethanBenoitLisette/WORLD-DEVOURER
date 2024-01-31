@@ -1,25 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerStat : MonoBehaviour
 {
     public ScoreManager ScoreManager;
+    public OpenShop openShop;
 
-    private int numOfDamage = 0;
-    private int numOfInsect = 0;
+  
+    private int baseDamage = 50; // Dégâts de base
+    private int currentDamage; // Dégâts actuels du joueur
 
-    private int costOfDamage = 10;
-    private int costOfInsect = 20;
+    private static PlayerStat _instance;
 
-
-    private int baseDamage = 10; // Dégâts de base
-    private UpgradeManager upgradeManager;
+    public static PlayerStat instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<PlayerStat>();
+            }
+            return _instance;
+        }
+    }
 
     private void Start()
     {
-       ScoreManager = GetComponent<ScoreManager>();
+        ScoreManager = GetComponent<ScoreManager>();
+        openShop = GetComponent<OpenShop>();
+
+        // Initialise les dégâts actuels du joueur avec les dégâts de base
+        currentDamage = baseDamage;
     }
 
     private void OnTriggerEnter2D(Collider2D collider2D)
@@ -28,26 +40,29 @@ public class PlayerStat : MonoBehaviour
         {
             Destroy(collider2D.gameObject);
         }
-
     }
 
-    public void BuyDamage()
+    // Ajoute cette fonction pour augmenter les dégâts du joueur
+    public void IncreaseDamage(int amount)
     {
-        Debug.Log("BuyDamage method called!");
-        if (ScoreManager.GetBiomasse() >= costOfDamage)
-        {
-            Debug.Log("Achat de dégâts réussi !");
-            numOfDamage++;
-
-            // Utilise la méthode ChangeScore pour soustraire le coût de l'amélioration de la biomasse
-            ScoreManager.ChangeScore(-costOfDamage);
-        }
-        else
-        {
-            Debug.Log("Fonds insuffisants pour l'achat de dégâts.");
-        }
+        currentDamage += amount;
     }
 
-    
+    // Ajoute cette fonction pour obtenir les dégâts actuels du joueur
+    public int GetCurrentDamage()
+    {
+        return currentDamage;
+    }
 
+    // Ajoute cette fonction pour infliger des dégâts à l'ennemi
+    public void InflictDamage(eatEnemy enemy)
+    {
+        // Ici, tu peux ajuster comment tu veux gérer l'infliger de dégâts à l'ennemi
+        enemy.TakeDamage(currentDamage);
+    }
+
+    public int GetBaseDamage()
+    {
+        return baseDamage;
+    }
 }

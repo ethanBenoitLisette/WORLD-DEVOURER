@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-  public void ChangeScore(int  biomasseValue)
+
+
+    public void ChangeScore(int  biomasseValue)
     {
         biomasse += biomasseValue;
         text.text = biomasse.ToString();
@@ -28,4 +31,7 @@ public class ScoreManager : MonoBehaviour
     {
         return biomasse;
     }
+
+   
+
 }

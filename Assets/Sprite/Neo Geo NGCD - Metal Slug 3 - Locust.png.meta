@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 1e909b1e49d4d7b47a0d2540514a5c97
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1845
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af24275f455a7247a9af6a494b10e90
+      internalID: 1308463941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1844
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b7def1dc73474194c39317a4c152b
+      internalID: 807963345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1842
+        width: 85
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d02bdb804fa6b547924e3648ac94b6f
+      internalID: 484376688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1843
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd643e3f1f59f40b3099b7e9b59995
+      internalID: 925339103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1844
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f517f1f3cfab5546b6e2b61b3a870c5
+      internalID: 1637084498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1846
+        width: 84
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ffe7162604a74a902753d386a24cb
+      internalID: -730766523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_6
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1844
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e410abdd1d924085a1b35519b5661
+      internalID: 1710440641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1841
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0486f4c09deedaa4db8c564498050ea9
+      internalID: -1717748207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1838
+        width: 81
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c18dc3b7f0c1fa4f8619d39941f560b
+      internalID: 1333525227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_9
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1838
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e16912fca5b094dbb1ce3bc5033cad
+      internalID: -461366622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1770
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5643597aedf950e448e6aabeb0449a8a
+      internalID: -820209280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1771
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5997f7dc96bad244f9a42eb27ae66418
+      internalID: 1404087036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1773
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30faf0b274ee76a499936191a9e9537c
+      internalID: -66106945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1774
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343a150eff196ec4788ffc394232992d
+      internalID: -1470010601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1773
+        width: 82
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1412a8e40efcc7d478cdf908b28d2490
+      internalID: 1720138717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1774
+        width: 83
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e0329a3487b20418c3c2738f51da19
+      internalID: 260432757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_16
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1773
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c33957717677945b38da3d79bfd07c
+      internalID: 129366138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_17
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1771
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63f6b37ea9afb34a9d7419eafaed35e
+      internalID: -431629942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_18
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1772
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ce423734ea864fa6f9b594b1cc617
+      internalID: 33635887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_19
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1771
+        width: 93
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1978eb24b334ff449d039a0d733fb13
+      internalID: 81165819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1700
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e8038bacb85ed49a256080eefb14f6
+      internalID: 1412191928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1700
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ec458e1ae6e34485eeaccdb01c6b8
+      internalID: -512829917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_22
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1700
+        width: 89
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbeb50be22be034aaad6f0429ffd9c7
+      internalID: -150204454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1700
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62436fc948f079c4ca0be78834d5f0e8
+      internalID: -403431115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_24
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1700
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a413b02a5d99649a165a849907811a
+      internalID: -241314584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_25
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1701
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f468e7f3d7f8c814196109fc79931651
+      internalID: 843545372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_26
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1701
+        width: 80
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3734098f0fedcf4d896d3479ce44daa
+      internalID: 1351122622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_27
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1698
+        width: 86
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3762b2d213038a74393fc2542410fe0f
+      internalID: -1638916261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_28
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1698
+        width: 79
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d345e3a53b8c2384bbe673682d0b83be
+      internalID: 1244882583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_29
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1698
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507c5a8b53c21674799583f7552df223
+      internalID: -1231020158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1626
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea4722b83a554e448653a187d13f78d
+      internalID: -338174064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1627
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b83c95920edba48a2cbe8b29ccbf9e
+      internalID: -1288627749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1628
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18869dae1ede975459fc225c31eb7312
+      internalID: -870307386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_33
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1629
+        width: 81
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3dfbc3f17dc5543afc4f82129c5850
+      internalID: -1178722366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_34
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1630
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c301c0c2ebe99a4384ec6cadd64d220
+      internalID: 772963123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_35
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1630
+        width: 81
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea3be1c1f857aa488785185379afc5c
+      internalID: -944670395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_36
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1630
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de2bb33a17c5c34bb7fbb2ac0029168
+      internalID: 1025601734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1630
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f2118c8da4f844c9957234040fdcc2
+      internalID: -935163450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_38
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1628
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91682c5a1cc92c44daa640258bd8d930
+      internalID: -736015107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Locust_39
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1629
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ca0669bfe05b45a1ae3ff5c0eafe8
+      internalID: 1446648497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Neo Geo NGCD - Metal Slug 3 - Locust_14: 200697367
+      Neo Geo NGCD - Metal Slug 3 - Locust_13: 1404087036
+      Neo Geo NGCD - Metal Slug 3 - Locust_15: -66106945
+      Neo Geo NGCD - Metal Slug 3 - Locust_24: -512829917
+      Neo Geo NGCD - Metal Slug 3 - Locust_38: -1178722366
+      Neo Geo NGCD - Metal Slug 3 - Locust_7: -730766523
+      Neo Geo NGCD - Metal Slug 3 - Locust_19: 129366138
+      Neo Geo NGCD - Metal Slug 3 - Locust_37: -870307386
+      Neo Geo NGCD - Metal Slug 3 - Locust_1: 1308463941
+      Neo Geo NGCD - Metal Slug 3 - Locust_21: 33635887
+      Neo Geo NGCD - Metal Slug 3 - Locust_11: -461366622
+      Neo Geo NGCD - Metal Slug 3 - Locust_22: 81165819
+      Neo Geo NGCD - Metal Slug 3 - Locust_23: 1412191928
+      Neo Geo NGCD - Metal Slug 3 - Locust_16: -1470010601
+      Neo Geo NGCD - Metal Slug 3 - Locust_20: -431629942
+      Neo Geo NGCD - Metal Slug 3 - Locust_2: 807963345
+      Neo Geo NGCD - Metal Slug 3 - Locust_18: 260432757
+      Neo Geo NGCD - Metal Slug 3 - Locust_8: 1710440641
+      Neo Geo NGCD - Metal Slug 3 - Locust_32: -1638916261
+      Neo Geo NGCD - Metal Slug 3 - Locust_30: 843545372
+      Neo Geo NGCD - Metal Slug 3 - Locust_3: -1580428603
+      Neo Geo NGCD - Metal Slug 3 - Locust_26: -150204454
+      Neo Geo NGCD - Metal Slug 3 - Locust_34: -1231020158
+      Neo Geo NGCD - Metal Slug 3 - Locust_12: -820209280
+      Neo Geo NGCD - Metal Slug 3 - Locust_29: -241314584
+      Neo Geo NGCD - Metal Slug 3 - Locust_0: -1883322660
+      Neo Geo NGCD - Metal Slug 3 - Locust_35: -338174064
+      Neo Geo NGCD - Metal Slug 3 - Locust_4: 484376688
+      Neo Geo NGCD - Metal Slug 3 - Locust_5: 925339103
+      Neo Geo NGCD - Metal Slug 3 - Locust_31: 1351122622
+      Neo Geo NGCD - Metal Slug 3 - Locust_6: 1637084498
+      Neo Geo NGCD - Metal Slug 3 - Locust_39: 772963123
+      Neo Geo NGCD - Metal Slug 3 - Locust_36: -1288627749
+      Neo Geo NGCD - Metal Slug 3 - Locust_27: -403431115
+      Neo Geo NGCD - Metal Slug 3 - Locust_17: 1720138717
+      Neo Geo NGCD - Metal Slug 3 - Locust_9: -1717748207
+      Neo Geo NGCD - Metal Slug 3 - Locust_10: 1333525227
+      Neo Geo NGCD - Metal Slug 3 - Locust_28: -494464336
+      Neo Geo NGCD - Metal Slug 3 - Locust_25: -957330810
+      Neo Geo NGCD - Metal Slug 3 - Locust_33: 1244882583
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

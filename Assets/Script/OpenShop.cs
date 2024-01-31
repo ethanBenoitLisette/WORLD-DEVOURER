@@ -4,28 +4,34 @@ using UnityEngine;
 
 public class OpenShop : MonoBehaviour
 {
-
     public GameObject Shop;
-    // Start is called before the first frame update
+    public PlayerStat playerStat; // Ajoute cette ligne
+
     void Start()
     {
-        Shop = GameObject.Find("ShopPanel");
         Shop.SetActive(false);
     }
 
+    public void ToggleShop()
+    {
+        Shop.SetActive(!Shop.activeSelf);
+    }
+
+    // Ajoute cette fonction pour permettre au bouton d'achat d'appeler BuyDamage
+  
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "PlayerObject")
         {
-            Shop.SetActive(true);
+            ToggleShop();
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "PlayerObject")
+        if (collision.gameObject.tag == "PlayerObject")
         {
-            Shop.SetActive(false) ;
+            ToggleShop();
         }
     }
 }
