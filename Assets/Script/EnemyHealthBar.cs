@@ -15,16 +15,29 @@ public class EnemyHealthBar : MonoBehaviour
         healthBar.fillAmount = healthPercentage;
     }
 
-    // Appelée pour réduire la santé de l'ennemi
+    // Appelée pour réduire la santé de l'ennemi 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         UpdateHealthBar();
 
+        CheckIfDead();
+    }
+
+    // Vérifie si l'ennemi est mort
+    private void CheckIfDead()
+    {
         if (currentHealth <= 0)
         {
-            // L'ennemi est mort, ajoute ici toute logique supplémentaire
-            Destroy(gameObject);
+            // L'ennemi est mort, déclenche une action ici
+            EnemyDied();
         }
+    }
+
+    // Action déclenchée lorsque l'ennemi meurt
+    private void EnemyDied()
+    {
+        // Ici, tu peux mettre en œuvre une logique pour gérer la mort de l'ennemi
+        Destroy(gameObject);
     }
 }

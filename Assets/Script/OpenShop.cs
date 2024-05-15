@@ -17,8 +17,14 @@ public class OpenShop : MonoBehaviour
         Shop.SetActive(!Shop.activeSelf);
     }
 
-    // Ajoute cette fonction pour permettre au bouton d'achat d'appeler BuyDamage
-  
+    public void ExitShop()
+    {
+        // Réinitialiser l'état d'achat lorsque le joueur quitte le magasin
+        UpgradeManager.instance.ResetPurchaseStatus();
+        // Fermer le magasin
+        Shop.SetActive(false);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "PlayerObject")
@@ -31,7 +37,7 @@ public class OpenShop : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerObject")
         {
-            ToggleShop();
+            ExitShop();
         }
     }
 }

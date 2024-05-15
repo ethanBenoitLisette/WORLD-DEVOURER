@@ -15,8 +15,12 @@ public class eatEnemy : MonoBehaviour
     private Image healthBar;
     private Canvas canvas;
 
+    // public EnemySpawner enemySpawner;
+
     void Start()
     {
+        // enemySpawner = FindObjectOfType<EnemySpawner>();
+
         playerUpgradeManager = FindObjectOfType<UpgradeManager>();
         playerStat = FindObjectOfType<PlayerStat>();
 
@@ -38,6 +42,8 @@ public class eatEnemy : MonoBehaviour
         {
             piecesToSpawn = Mathf.CeilToInt(collisionsCount / 2.0f); // Calcule le nombre de pièces à générer
             StartCoroutine(DelayedDestroyAndSpawn(piecesToSpawn));
+
+           // enemySpawner.EnemyDied();
         }
         else
         {
